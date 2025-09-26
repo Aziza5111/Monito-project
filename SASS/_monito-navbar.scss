@@ -1,0 +1,28 @@
+.container {
+  margin: 0 auto;
+  background-color: #f7dba7;
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      li {
+        display: flex;
+        list-style: none;
+
+        a {
+          text-decoration: none;
+          color: black;
+          padding: 10px;
+        }
+        &:hover {
+          color: blue;
+        }
+      }
+    }
+  }
+}

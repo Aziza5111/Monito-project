@@ -1,0 +1,32 @@
+.container {
+  margin: 0 auto;
+  background-color: #f7dba7;
+}
+.container .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .navbar ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .navbar ul li {
+  display: flex;
+  list-style: none;
+}
+.container .navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+.container .navbar ul li:hover {
+  color: blue;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(gilroy/Gilroy-Bold.ttf);
+  font-weight: 400;
+}/*# sourceMappingURL=main.css.map */
