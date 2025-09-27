@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  display: inline-flex;
+}
+
+button,
+.button {
+  border: inherit;
+  color: inherit;
+}
+
+body {
+  font-family: "Gilroy";
+  background: #fdfdfd;
+}
+
+.container {
+  width: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/fonts/Gilroy-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/fonts/Gilroy-Medium.ttf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/fonts/Gilroy-SemiBold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(/src/fonts/Gilroy-Bold.ttf);
+  font-weight: 700;
+}
+.body10-regular {
+  color: rgb(121.0003426, 102.0006574, 102.0006574);
+  /* Body/10px Regular */
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.body10-bold {
+  color: #fdfdfd;
+  /* Body/10px Bold */
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.body12-medium {
+  color: rgb(121.0003426, 102.0006574, 102.0006574);
+  /* Body/12px Medium */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.body12-bold {
+  color: rgb(121.0003426, 102.0006574, 102.0006574);
+  /* Body/12px Medium */
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.body14-regular {
+  color: rgb(50.9900208, 35.9939792, 35.9939792);
+  /* Body/14px Regular */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.body14-medium {
+  color: rgb(165.0065625, 153.0074375, 153.0074375);
+  /* Body/14px Medium */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.body14-bold {
+  color: rgb(30.986, 0, 0);
+  /* Body/14px Bold */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.body16-medium {
+  color: rgb(50.9900208, 35.9939792, 35.9939792);
+  /* Body/16px Medium */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.body16-bold {
+  color: #003459;
+  /* Body/16px Bold */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.section-title {
+  color: #003459;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: capitalize;
+}/*# sourceMappingURL=main.css.map */
