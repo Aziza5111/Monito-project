@@ -1,29 +1,29 @@
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-Regular.ttf);
+  src: url(/SRC/fonts/Gilroy-Bold.ttf);
   font-weight: 400;
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-Medium.ttf);
+  src: url(/SRC/fonts/Gilroy-Medium.ttf);
   font-weight: 500;
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-SemiBold.ttf);
+  src: url(/SRC/fonts/Gilroy-Regular.ttf);
   font-weight: 600;
 }
 
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-Bold.ttf);
+  src: url(/SRC/fonts/Gilroy-SemiBold.ttf);
   font-weight: 700;
 }
 
 .body10-regular {
-  color: $neutral-color-60;
+  // color: $neutral-color-60;
 
   /* Body/10px Regular */
   font-size: 10px;
@@ -33,7 +33,7 @@
 }
 
 .body10-bold {
-  color: $neutral-color-00;
+  // color: $neutral-color-00;
 
   /* Body/10px Bold */
   font-size: 10px;
@@ -43,7 +43,7 @@
 }
 
 .body12-medium {
-  color: $neutral-color-60;
+  // color: $neutral-color-60;
 
   /* Body/12px Medium */
   font-size: 12px;
@@ -53,7 +53,7 @@
 }
 
 .body12-bold {
-  color: $neutral-color-60;
+  // color: $neutral-color-60;
 
   /* Body/12px Medium */
   font-size: 12px;
@@ -63,7 +63,7 @@
 }
 
 .body14-regular {
-  color: $neutral-color-80;
+  // color: $neutral-color-80;
 
   /* Body/14px Regular */
   font-size: 14px;
@@ -73,7 +73,7 @@
 }
 
 .body14-medium {
-  color: $neutral-color-40;
+  // color: $neutral-color-40;
 
   /* Body/14px Medium */
   font-size: 14px;
@@ -83,7 +83,7 @@
 }
 
 .body14-bold {
-  color: $neutral-color-100;
+  // color: $neutral-color-100;
 
   /* Body/14px Bold */
   font-size: 14px;
@@ -93,7 +93,7 @@
 }
 
 .body16-medium {
-  color: $neutral-color-80;
+  // color: $neutral-color-80;
 
   /* Body/16px Medium */
   font-size: 16px;
@@ -103,7 +103,7 @@
 }
 
 .body16-bold {
-  color: $primary-color-dark-blue;
+  // color: $primary-color-dark-blue;
 
   /* Body/16px Bold */
   font-size: 16px;
@@ -113,7 +113,7 @@
 }
 
 .section-title {
-  color: $primary-color-dark-blue;
+  // color: $primary-color-dark-blue;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;

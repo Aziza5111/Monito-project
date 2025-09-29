@@ -7,18 +7,16 @@
 @import "Base/typography";
 
 // COMPONENTS
-// @import "Components/preloader";
-// @import "Components/buttons";
-// @import "gilroy.scss";
+@import "Components/preloader";
+@import "Components/buttons";
 
 // PARTIALS
-// @import "Partials/menu";
-// @import "Partials/header";
-// @import "Partials/hero";
-// @import "Partials/our-pets";
-// @import "Partials/one-more-friend__banner";
-// @import "Partials/our-products";
-// @import "Partials/partrners";
-// @import "Partials/adaption";
-// @import "Partials/useful-pet-knowledge";
-// @import "Partials/footer";
+@import "Partials/main";
+@import "Partials/header";
+@import "Partials/our-pets";
+@import "Partials/one-more-friend-banner";
+@import "Partials/our-products";
+@import "Partials/partners";
+@import "Partials/adaption";
+@import "Partials/useful-pet-knowladge";
+@import "Partials/footer";

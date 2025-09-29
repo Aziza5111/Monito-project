@@ -57,22 +57,22 @@ body {
 
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-Regular.ttf);
+  src: url(/SRC/fonts/Gilroy-Bold.ttf);
   font-weight: 400;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-Medium.ttf);
+  src: url(/SRC/fonts/Gilroy-Medium.ttf);
   font-weight: 500;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-SemiBold.ttf);
+  src: url(/SRC/fonts/Gilroy-SemiBold.ttf);
   font-weight: 600;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(/src/fonts/Gilroy-Bold.ttf);
+  src: url(/SRC/fonts/Gilroy-Bold.ttf);
   font-weight: 700;
 }
 .body10-regular {
@@ -163,4 +163,4 @@ body {
   font-weight: 700;
   line-height: 36px;
   text-transform: capitalize;
-}/*# sourceMappingURL=main.css.map */
+} /*# sourceMappingURL=main.css.map */
