@@ -46,7 +46,6 @@ button,
 
 body {
   font-family: "Gilroy";
-  background: #fdfdfd;
 }
 
 .container {
@@ -67,16 +66,15 @@ body {
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(/SRC/fonts/Gilroy-SemiBold.ttf);
+  src: url(/SRC/fonts/Gilroy-Regular.ttf);
   font-weight: 600;
 }
 @font-face {
   font-family: "Gilroy";
-  src: url(/SRC/fonts/Gilroy-Bold.ttf);
+  src: url(/SRC/fonts/Gilroy-SemiBold.ttf);
   font-weight: 700;
 }
 .body10-regular {
-  color: rgb(121.0003426, 102.0006574, 102.0006574);
   /* Body/10px Regular */
   font-size: 10px;
   font-style: normal;
@@ -85,7 +83,6 @@ body {
 }
 
 .body10-bold {
-  color: #fdfdfd;
   /* Body/10px Bold */
   font-size: 10px;
   font-style: normal;
@@ -93,8 +90,7 @@ body {
   line-height: 16px;
 }
 
-.body12-medium {
-  color: rgb(121.0003426, 102.0006574, 102.0006574);
+.body12-medium, #adoption p {
   /* Body/12px Medium */
   font-size: 12px;
   font-style: normal;
@@ -103,7 +99,6 @@ body {
 }
 
 .body12-bold {
-  color: rgb(121.0003426, 102.0006574, 102.0006574);
   /* Body/12px Medium */
   font-size: 12px;
   font-style: normal;
@@ -112,7 +107,6 @@ body {
 }
 
 .body14-regular {
-  color: rgb(50.9900208, 35.9939792, 35.9939792);
   /* Body/14px Regular */
   font-size: 14px;
   font-style: normal;
@@ -121,7 +115,6 @@ body {
 }
 
 .body14-medium {
-  color: rgb(165.0065625, 153.0074375, 153.0074375);
   /* Body/14px Medium */
   font-size: 14px;
   font-style: normal;
@@ -130,7 +123,6 @@ body {
 }
 
 .body14-bold {
-  color: rgb(30.986, 0, 0);
   /* Body/14px Bold */
   font-size: 14px;
   font-style: normal;
@@ -138,8 +130,7 @@ body {
   line-height: 20px;
 }
 
-.body16-medium {
-  color: rgb(50.9900208, 35.9939792, 35.9939792);
+.body16-medium, #header p {
   /* Body/16px Medium */
   font-size: 16px;
   font-style: normal;
@@ -148,7 +139,6 @@ body {
 }
 
 .body16-bold {
-  color: #003459;
   /* Body/16px Bold */
   font-size: 16px;
   font-style: normal;
@@ -157,10 +147,206 @@ body {
 }
 
 .section-title {
-  color: #003459;
   font-size: 24px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
   text-transform: capitalize;
-} /*# sourceMappingURL=main.css.map */
+}
+
+#header {
+  background-color: #fceed5;
+  height: 700px;
+}
+#header .container {
+  position: relative;
+}
+#header .container .navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding-top: 30px;
+}
+#header .container .navbar ul {
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+#header .container .navbar ul li {
+  display: flex;
+  list-style: none;
+}
+#header .container .navbar ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+}
+#header .container .navbar ul li:hover {
+  color: blue;
+}
+#header .container .navbar .search-input {
+  border-radius: 50px;
+  border-color: white;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 12px;
+  text-align: center;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  padding-left: 16px;
+  width: 250px;
+  height: 40px;
+}
+#header .container .navbar .primary-btn {
+  text-decoration: none;
+  border-radius: 50px;
+  background-color: #003459;
+  color: #fff;
+  gap: 10px;
+  padding-top: 10px;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+}
+#header .showcase {
+  width: 1200px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 80px;
+}
+#header h1,
+#header h2 {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 68px;
+  position: relative;
+  z-index: 200;
+}
+#header h2 {
+  margin-top: 4px;
+  font-size: 46px;
+  line-height: 60px;
+}
+#header p {
+  width: 480px;
+  margin: 24px 0 34px;
+}
+#header .main-img {
+  position: absolute;
+  left: 700px;
+  bottom: 160px;
+  width: 1100px;
+  height: 700px;
+}
+#header .hero-btns {
+  position: absolute;
+  left: 370px;
+  font-size: 16px;
+  font-weight: 500;
+}
+#header .hero-btns a {
+  border-radius: 50px;
+  border: 1px;
+  padding: 10px 30px;
+  margin-top: 35px;
+  border: 1.5px solid #003459;
+}
+#header .hero-btns .explore {
+  color: white;
+  background-color: #003459;
+  margin-left: 25px;
+  margin-bottom: 235px;
+}
+#header .background {
+  position: absolute;
+  top: -397px;
+  left: -200px;
+  rotate: -25.23deg;
+}
+#header .background .box1 {
+  width: 635px;
+  height: 635px;
+  border-radius: 99px;
+  background-color: #f7dba7;
+  z-index: -1;
+}
+
+#adoption .site-adoption {
+  width: 100%;
+  height: 378px;
+  border-radius: 20px;
+  background: #ffb775;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 80px;
+  position: relative;
+  overflow: hidden;
+}
+#adoption .site-adoption__title {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  z-index: 200;
+}
+#adoption h2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 68px;
+  text-transform: capitalize;
+}
+#adoption h3 {
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 54px;
+  text-transform: capitalize;
+}
+#adoption p {
+  margin: 8px 0 42px;
+}
+#adoption .adoption-btns {
+  display: flex;
+  gap: 20px;
+}
+#adoption .adoption-effect-one {
+  width: 782.292px;
+  height: 635px;
+  transform: rotate(-25.23deg);
+  border-radius: 99px;
+  position: absolute;
+  left: -15%;
+  bottom: 0;
+}
+#adoption .adoption-effect-two {
+  width: 787.54px;
+  height: 787.54px;
+  transform: rotate(-28.251deg);
+  border-radius: 99px;
+  opacity: 0.3;
+  position: absolute;
+  top: 40%;
+  right: -20%;
+}
+#adoption .adoption-img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 100;
+}
+
+@media only screen and (max-width: 1200px) {
+  #adoption {
+    display: none;
+  }
+}/*# sourceMappingURL=main.css.map */
