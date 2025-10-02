@@ -1,0 +1,50 @@
+.our-pets {
+  height: 990px;
+  margin-top: 60px;
+  margin-left: 380px;
+  width: 100%;
+  position: relative;
+
+  //   flex-wrap: wrap;
+  //   @include flex-center;
+
+  p {
+    width: 90px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h3 {
+    width: 367px;
+    height: 36px;
+    font-weight: 700;
+    font-style: bold;
+    font-style: 24px;
+    line-height: 36px;
+    text-transform: capitalize;
+  }
+
+  .view {
+    color: #003459;
+    background-color: #fff;
+    margin-left: 1000px;
+
+    a {
+      border-radius: 50px;
+      padding: 10px 30px;
+      margin-top: 35px;
+      border: 1.5px solid #003459;
+    }
+  }
+  .pet-cards {
+    border: 1px solid#fff;
+    position: absolute;
+    img {
+      width: 265px;
+      height: 265px;
+      border-radius: 10px;
+      top: 150px;
+    }
+  }
+}
