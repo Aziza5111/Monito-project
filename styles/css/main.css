@@ -35,7 +35,6 @@ p {
   margin: 0;
   padding: 0;
   font-size: inherit;
-  display: inline-flex;
 }
 
 button,
@@ -144,6 +143,7 @@ body {
   font-style: normal;
   font-weight: 700;
   line-height: 24px;
+  margin: 16px 8px;
 }
 
 .section-title {
@@ -355,49 +355,64 @@ body {
   background-color: #f7dba7;
 }
 
-.our-pets {
-  height: 990px;
-  margin-top: 60px;
-  margin-left: 380px;
-  width: 100%;
-  position: relative;
+#our-pets {
+  margin-top: 100px;
 }
-.our-pets p {
-  width: 90px;
-  height: 24px;
+#our-pets .our-pets {
+  height: 990px;
+}
+#our-pets .our-pets p {
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
 }
-.our-pets h3 {
-  width: 367px;
-  height: 36px;
+#our-pets .our-pets h3 {
   font-weight: 700;
   font-style: bold;
   font-style: 24px;
   line-height: 36px;
   text-transform: capitalize;
 }
-.our-pets .view {
+#our-pets .our-pets .view {
   color: #003459;
   background-color: #fff;
   margin-left: 1000px;
 }
-.our-pets .view a {
+#our-pets .our-pets .view a {
   border-radius: 50px;
   padding: 10px 30px;
   margin-top: 35px;
   border: 1.5px solid #003459;
 }
-.our-pets .pet-cards {
+#our-pets .our-pets .pet-cards {
   border: 1px solid #fff;
   position: absolute;
 }
-.our-pets .pet-cards img {
+#our-pets .our-pets .pet-cards img {
   width: 265px;
   height: 265px;
   border-radius: 10px;
   top: 150px;
+}
+#our-pets .our-pets .pet-cards .pets-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+}
+#our-pets .our-pets .pet-cards .pets-status .body12-medium, #our-pets .our-pets .pet-cards .pets-status #adoption p, #adoption #our-pets .our-pets .pet-cards .pets-status p {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+#our-pets .our-pets .pet-cards .pets-status .dot {
+  width: 4px;
+  height: 4px;
+  background-color: #000000;
+  border-radius: 50%;
+}
+#our-pets .our-pets .pet-cards .pets-status span {
+  font-weight: 700;
 }
 
 #adoption .site-adoption {
