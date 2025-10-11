@@ -1,0 +1,32 @@
+.site__banner {
+  @include flex-between;
+  margin: 0px 390px;
+  border: 1px;
+  border-radius: 20px;
+  background-color: rgb(71, 78, 139);
+
+  .banner-title {
+    padding: 65px 100px;
+    h1,
+    h2 {
+      margin-top: 50px;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 100;
+      line-height: 68px;
+    }
+
+    h3 {
+      margin-top: 4px;
+      font-size: 40px;
+      line-height: 60px;
+      padding-left: 60px;
+    }
+
+    p {
+      @extend .body16-medium;
+      font-size: 12px;
+      margin: 8px 20px;
+    }
+  }
+}

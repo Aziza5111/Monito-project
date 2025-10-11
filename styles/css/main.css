@@ -129,7 +129,7 @@ body {
   line-height: 20px;
 }
 
-.body16-medium, #header p {
+.body16-medium, .site__banner .banner-title p, #header p {
   /* Body/16px Medium */
   font-size: 16px;
   font-style: normal;
@@ -433,6 +433,36 @@ body {
 }
 #our-pets .our-pets .pets-card .pet-cards .pets-status span {
   font-weight: 700;
+}
+
+.site__banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 390px;
+  border: 1px;
+  border-radius: 20px;
+  background-color: rgb(71, 78, 139);
+}
+.site__banner .banner-title {
+  padding: 65px 100px;
+}
+.site__banner .banner-title h1,
+.site__banner .banner-title h2 {
+  margin-top: 50px;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 68px;
+}
+.site__banner .banner-title h3 {
+  margin-top: 4px;
+  font-size: 40px;
+  line-height: 60px;
+  padding-left: 60px;
+}
+.site__banner .banner-title p {
+  font-size: 12px;
+  margin: 8px 20px;
 }
 
 #adoption .site-adoption {
