@@ -2,5 +2,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
 }
