@@ -1,0 +1,96 @@
+#our-products {
+  .site-our-products {
+    margin: 0 auto;
+    margin-top: 60px;
+
+    .our-products__title {
+      .section-title {
+        font-weight: 700;
+        color: #003459;
+        font-size: 24px;
+        line-height: 36px;
+      }
+
+      .view-btn {
+        margin-left: 1025px;
+        border-radius: 50px;
+        border: 1px;
+        padding: 10px 30px;
+        border: 1.5px solid #003459;
+      }
+    }
+
+    .our-products-cards {
+      @include flex-between;
+      flex-wrap: wrap;
+      row-gap: 30px;
+      .our-product-card {
+        width: 270px;
+        border: 1px solid#fff;
+        box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+        background-color: #fdfdfd;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 12px;
+
+        img {
+          border-radius: 10px;
+          top: 150px;
+        }
+        .product-status {
+          display: flex;
+          justify-content: space-between;
+          align-items: start;
+          flex-direction: column;
+
+          .body12-medium {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            margin: 8px;
+          }
+
+          .body14-bold {
+            margin-left: 8px;
+          }
+
+          .body16-bold {
+            padding-left: 8px;
+            padding-top: 8px;
+          }
+
+          .free-gift {
+            @include flex-between;
+            align-items: center;
+            width: 200px;
+            height: 34px;
+            margin: 18px 25px;
+            padding: 7px;
+            border: 1px solid #fceed5;
+            border-radius: 8px;
+            background-color: #fceed5;
+
+            .gift {
+              margin-right: 6px;
+            }
+          }
+
+          .dot {
+            width: 4px;
+            height: 4px;
+            background-color: #000000;
+            border-radius: 50%;
+          }
+
+          span {
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+}

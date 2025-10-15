@@ -1,0 +1,39 @@
+.site-partners {
+  margin: 0 auto;
+  margin-top: 90px;
+  margin-left: 230px;
+  .site-partners__title {
+    .title-content {
+      display: flex;
+      align-items: center;
+      p {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+      }
+
+      .section-title {
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        color: #003459;
+        margin-left: 8px;
+      }
+    }
+    .view-btn {
+      margin-left: 995px;
+      border-radius: 50px;
+      border: 1px;
+      padding: 10px 30px;
+      border: 1.5px solid #003459;
+      font-weight: 500;
+      font-size: 14px;
+    }
+  }
+
+  .our-partners {
+    margin-top: 16px;
+    @include flex-between;
+    align-items: center;
+  }
+}

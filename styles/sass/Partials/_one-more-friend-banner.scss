@@ -1,12 +1,17 @@
 .site__banner {
   @include flex-between;
-  margin: 0px 390px;
   border: 1px;
   border-radius: 20px;
-  background-color: rgb(71, 78, 139);
+  background-color: #003459;
+  position: relative;
+  overflow: hidden;
 
   .banner-title {
+    margin-top: -50px;
     padding: 65px 100px;
+    z-index: 15;
+    left: 170px;
+    text-align: end;
     h1,
     h2 {
       margin-top: 50px;
@@ -26,7 +31,60 @@
     p {
       @extend .body16-medium;
       font-size: 12px;
-      margin: 8px 20px;
+      margin: 8px 10px;
     }
+  }
+
+  .explore-img {
+    position: relative;
+    width: 550px;
+    height: 285px;
+    z-index: 250;
+    top: 65px;
+    left: 40px;
+  }
+
+  .right-effect {
+    position: absolute;
+    border: 1px solid #fceed5;
+    border-radius: 99px;
+    background-color: #fceed5;
+    width: 785px;
+    height: 635px;
+    rotate: 25.23deg;
+    top: -205px;
+    left: 575px;
+  }
+
+  .left-effect {
+    position: absolute;
+    background-color: #002a48;
+    border: 1px solid #002a48;
+    border-radius: 99px;
+    width: 788px;
+    height: 788px;
+    rotate: 35deg;
+    top: 200px;
+    left: -225px;
+  }
+}
+.banner-btns {
+  position: absolute;
+  margin-left: 1000px;
+  margin-top: -50px;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 200px;
+
+  a {
+    border-radius: 50px;
+    border: 1px;
+    padding: 10px 30px;
+    border: 1.5px solid #003459;
+    margin-left: 10px;
+  }
+  .explore-btn {
+    color: white;
+    background-color: #003459;
   }
 }
