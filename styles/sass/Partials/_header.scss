@@ -10,6 +10,7 @@
       @include flex-center;
       padding-top: 30px;
 
+
       ul {
         font-weight: 700;
         @include flex-center;
@@ -20,7 +21,7 @@
 
           a {
             text-decoration: none;
-            color: black;
+            color: #002a48;
             padding: 10px;
           }
           &:hover {
@@ -77,6 +78,7 @@
     font-style: normal;
     font-weight: 100;
     line-height: 68px;
+    color: #002a48;
     position: relative;
   }
   h1 {
@@ -92,6 +94,7 @@
     @extend .body16-medium;
     width: 480px;
     margin: 24px 0 34px;
+   color: #002a48;
   }
 
   .main-img {
