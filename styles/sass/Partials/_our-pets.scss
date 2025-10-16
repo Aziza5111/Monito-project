@@ -3,6 +3,11 @@
   .our-pets {
     height: 990px;
 
+    .hero {
+      @include flex-between;
+      align-items: center;
+    }
+
     p {
       font-weight: 500;
       font-size: 16px;
@@ -19,7 +24,6 @@
     .view {
       color: #003459;
       background-color: #fff;
-      margin-left: 1000px;
 
       a {
         border-radius: 50px;

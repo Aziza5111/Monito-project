@@ -361,6 +361,11 @@ body {
 #our-pets .our-pets {
   height: 990px;
 }
+#our-pets .our-pets .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #our-pets .our-pets p {
   font-weight: 500;
   font-size: 16px;
@@ -376,7 +381,6 @@ body {
 #our-pets .our-pets .view {
   color: #003459;
   background-color: #fff;
-  margin-left: 1000px;
 }
 #our-pets .our-pets .view a {
   border-radius: 50px;
@@ -449,15 +453,13 @@ body {
   overflow: hidden;
 }
 .site__banner .banner-title {
-  margin-top: -50px;
   padding: 65px 100px;
   z-index: 15;
-  left: 170px;
+  width: 60%;
   text-align: end;
 }
 .site__banner .banner-title h1,
 .site__banner .banner-title h2 {
-  margin-top: 50px;
   font-size: 60px;
   font-style: normal;
   font-weight: 100;
@@ -468,7 +470,6 @@ body {
   margin-top: 4px;
   font-size: 40px;
   line-height: 60px;
-  padding-left: 60px;
   color: #002a48;
 }
 .site__banner .banner-title p {
@@ -508,12 +509,8 @@ body {
 }
 
 .banner-btns {
-  position: absolute;
-  margin-left: 1000px;
-  margin-top: -50px;
   font-size: 16px;
   font-weight: 500;
-  z-index: 200px;
 }
 .banner-btns a {
   border-radius: 50px;
@@ -615,7 +612,6 @@ body {
 .site-partners {
   margin: 0 auto;
   margin-top: 90px;
-  margin-left: 230px;
 }
 .site-partners .site-partners__title .title-content {
   display: flex;
