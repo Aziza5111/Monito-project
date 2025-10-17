@@ -89,7 +89,7 @@ body {
   line-height: 16px;
 }
 
-.body12-medium, #adoption p {
+.body12-medium, #adaption p {
   /* Body/12px Medium */
   font-size: 12px;
   font-style: normal;
@@ -158,19 +158,18 @@ body {
   height: 700px;
   overflow: hidden;
   position: relative;
-  margin: 0 auto;
 }
 #header .container .navbar {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 30px;
+  justify-content: space-between;
+  padding: 20px;
 }
 #header .container .navbar ul {
   font-weight: 700;
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 25px;
 }
 #header .container .navbar ul li {
   display: flex;
@@ -184,29 +183,29 @@ body {
 #header .container .navbar ul li:hover {
   color: blue;
 }
-#header .container .navbar .search-input {
+#header .container .navbar .search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+#header .container .navbar .search .search-input {
   border-radius: 50px;
   border-color: white;
   font-weight: 500;
   font-size: 14px;
-  gap: 12px;
   text-align: center;
-  padding-top: 10px;
-  padding-right: 20px;
-  padding-bottom: 10px;
-  padding-left: 16px;
   width: 250px;
   height: 40px;
   background-image: url(/SRC/Monito-icons/u_search.png);
   background-repeat: no-repeat;
   background-position: 4% 50%;
 }
-#header .container .navbar .primary-btn {
+#header .container .navbar .search .primary-btn {
   text-decoration: none;
   border-radius: 50px;
   background-color: #003459;
   color: #fff;
-  gap: 10px;
   padding-top: 10px;
   width: 200px;
   height: 40px;
@@ -218,6 +217,9 @@ body {
   display: flex;
   flex-direction: column;
   margin-top: 80px;
+}
+#header .showcase .show-main {
+  margin-left: 30px;
 }
 #header h1,
 #header h2 {
@@ -244,34 +246,29 @@ body {
 }
 #header .main-img {
   position: absolute;
-  left: 700px;
-  top: 90px;
   width: 1100px;
   height: 700px;
+  z-index: 1;
+  left: 360px;
+  top: -60px;
 }
 #header .hero-btns {
-  position: absolute;
-  left: 370px;
   font-size: 16px;
   font-weight: 500;
+  margin-top: 30px;
 }
 #header .hero-btns a {
   border-radius: 50px;
   border: 1px;
-  padding: 10px 30px;
-  margin-top: 35px;
+  padding: 12px 30px;
   border: 1.5px solid #003459;
 }
 #header .hero-btns .explore {
   color: white;
   background-color: #003459;
   margin-left: 25px;
-  margin-bottom: 235px;
 }
 #header .frame {
-  z-index: 1;
-}
-#header .main-img {
   z-index: 1;
 }
 #header .background .box1 {
@@ -280,16 +277,16 @@ body {
   height: 635px;
   border-radius: 99px;
   background-color: #f7dba7;
-  top: -550px;
-  left: -15px;
+  top: -750px;
+  left: -400px;
   rotate: 20.23deg;
 }
 #header .background .box2 {
   position: absolute;
   width: 70px;
   height: 70px;
-  top: 195px;
-  left: 362px;
+  top: 45px;
+  left: 20px;
   border-radius: 20px;
   rotate: 25.23deg;
   background-color: #f7dba7;
@@ -298,8 +295,8 @@ body {
   position: absolute;
   width: 15px;
   height: 15px;
-  top: 148px;
-  left: 1055px;
+  top: 5px;
+  left: 700px;
   border-radius: 4px;
   rotate: 20deg;
   background-color: #f7dba7;
@@ -310,16 +307,16 @@ body {
   border-radius: 9px;
   width: 28px;
   height: 28px;
-  top: 200px;
-  left: 1030px;
+  top: 70px;
+  left: 660px;
   rotate: -22deg;
 }
 #header .background .box5 {
   position: absolute;
   width: 22px;
   height: 22px;
-  top: 210px;
-  left: 1030px;
+  top: 80px;
+  left: 660px;
   background-color: #003459;
   border-radius: 6px;
   rotate: -43deg;
@@ -328,8 +325,8 @@ body {
   position: absolute;
   width: 635px;
   height: 635px;
-  top: 370px;
-  left: 900px;
+  top: 190px;
+  left: 600px;
   border-radius: 99px;
   rotate: 10deg;
   background-color: #003459;
@@ -338,8 +335,8 @@ body {
   position: absolute;
   width: 635px;
   height: 635px;
-  top: 300px;
-  left: 960px;
+  top: 150px;
+  left: 650px;
   border-radius: 99px;
   rotate: 25deg;
   background-color: #f7dba7;
@@ -419,7 +416,7 @@ body {
   align-items: start;
   flex-direction: column;
 }
-#our-pets .our-pets .pets-card .pet-cards .pets-status .body12-medium, #our-pets .our-pets .pets-card .pet-cards .pets-status #adoption p, #adoption #our-pets .our-pets .pets-card .pet-cards .pets-status p {
+#our-pets .our-pets .pets-card .pet-cards .pets-status .body12-medium, #our-pets .our-pets .pets-card .pet-cards .pets-status #adaption p, #adaption #our-pets .our-pets .pets-card .pet-cards .pets-status p {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -436,7 +433,7 @@ body {
 #our-pets .our-pets .pets-card .pet-cards .pets-status .dot {
   width: 4px;
   height: 4px;
-  background-color: #000000;
+  background-color: #667479;
   border-radius: 50%;
 }
 #our-pets .our-pets .pets-card .pet-cards .pets-status span {
@@ -479,8 +476,8 @@ body {
 }
 .site__banner .explore-img {
   position: relative;
-  width: 550px;
-  height: 285px;
+  width: 515px;
+  height: 345px;
   z-index: 250;
   top: 65px;
   left: 40px;
@@ -511,6 +508,7 @@ body {
 .banner-btns {
   font-size: 16px;
   font-weight: 500;
+  margin-top: 40px;
 }
 .banner-btns a {
   border-radius: 50px;
@@ -528,6 +526,11 @@ body {
   margin: 0 auto;
   margin-top: 60px;
 }
+#our-products .site-our-products .our-products__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 #our-products .site-our-products .our-products__title .section-title {
   font-weight: 700;
   color: #003459;
@@ -535,7 +538,6 @@ body {
   line-height: 36px;
 }
 #our-products .site-our-products .our-products__title .view-btn {
-  margin-left: 1025px;
   border-radius: 50px;
   border: 1px;
   padding: 10px 30px;
@@ -546,6 +548,7 @@ body {
   justify-content: space-between;
   flex-wrap: wrap;
   row-gap: 30px;
+  margin-top: 30px;
 }
 #our-products .site-our-products .our-products-cards .our-product-card {
   width: 270px;
@@ -569,7 +572,7 @@ body {
   align-items: start;
   flex-direction: column;
 }
-#our-products .site-our-products .our-products-cards .our-product-card .product-status .body12-medium, #our-products .site-our-products .our-products-cards .our-product-card .product-status #adoption p, #adoption #our-products .site-our-products .our-products-cards .our-product-card .product-status p {
+#our-products .site-our-products .our-products-cards .our-product-card .product-status .body12-medium, #our-products .site-our-products .our-products-cards .our-product-card .product-status #adaption p, #adaption #our-products .site-our-products .our-products-cards .our-product-card .product-status p {
   display: flex;
   flex-direction: row;
   gap: 10px;
@@ -597,7 +600,8 @@ body {
   background-color: #fceed5;
 }
 #our-products .site-our-products .our-products-cards .our-product-card .product-status .free-gift .gift {
-  margin-right: 6px;
+  width: 20px;
+  height: 20px;
 }
 #our-products .site-our-products .our-products-cards .our-product-card .product-status .dot {
   width: 4px;
@@ -645,76 +649,92 @@ body {
   align-items: center;
 }
 
-#adoption .site-adoption {
+#adaption .site-adoption {
   width: 100%;
   height: 378px;
   border-radius: 20px;
   background: #ffb775;
   display: flex;
+  margin-top: 40px;
   flex-direction: column;
   justify-content: center;
   padding-left: 80px;
   position: relative;
   overflow: hidden;
 }
-#adoption .site-adoption__title {
+#adaption .site-adoption__title {
   display: flex;
   flex-direction: column;
   position: relative;
   z-index: 200;
+  margin-top: 20px;
 }
-#adoption h2 {
+#adaption h2 {
   display: flex;
   align-items: center;
   gap: 16px;
   font-size: 52px;
-  font-style: normal;
-  font-weight: 800;
+  font-style: bold;
+  font-weight: 100;
   line-height: 68px;
   text-transform: capitalize;
+  color: #003459;
 }
-#adoption h3 {
+#adaption h3 {
   font-size: 36px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 200;
   line-height: 54px;
   text-transform: capitalize;
+  color: #003459;
 }
-#adoption p {
+#adaption p {
   margin: 8px 0 42px;
+  color: #242b33;
+  font-size: 16px;
 }
-#adoption .adoption-btns {
+#adaption .adoption-btns {
   display: flex;
   gap: 20px;
 }
-#adoption .adoption-effect-one {
-  width: 782.292px;
-  height: 635px;
-  transform: rotate(-25.23deg);
-  border-radius: 99px;
-  position: absolute;
-  left: -15%;
-  bottom: 0;
+#adaption .adoption-btns a {
+  border-radius: 50px;
+  border: 1px;
+  padding: 12px 30px;
+  border: 1.5px solid #003459;
 }
-#adoption .adoption-effect-two {
-  width: 787.54px;
-  height: 787.54px;
-  transform: rotate(-28.251deg);
-  border-radius: 99px;
-  opacity: 0.3;
-  position: absolute;
-  top: 40%;
-  right: -20%;
-}
-#adoption .adoption-img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: 100;
+#adaption .adoption-btns .explore-btn {
+  color: white;
+  background-color: #003459;
 }
 
-@media only screen and (max-width: 1200px) {
-  #adoption {
-    display: none;
-  }
+.adoption-effect-one {
+  width: 782.292px;
+  height: 635px;
+  rotate: -25deg;
+  top: -200px;
+  left: -250px;
+  border-radius: 99px;
+  position: absolute;
+  background-color: #fceed5;
+}
+
+.adoption-effect-two {
+  width: 787.54px;
+  height: 787.54px;
+  rotate: -30deg;
+  top: 170px;
+  left: 590px;
+  border-radius: 99px;
+  background-color: #fbd58f;
+  position: absolute;
+}
+
+.adoption-img {
+  position: absolute;
+  rotate: -355deg;
+  width: 600px;
+  height: 400px;
+  z-index: 100;
+  left: 590px;
 }/*# sourceMappingURL=main.css.map */

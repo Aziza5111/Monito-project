@@ -3,17 +3,16 @@
   height: 700px;
   overflow: hidden;
   position: relative;
-  margin: 0 auto;
 
   .container {
     .navbar {
-      @include flex-center;
-      padding-top: 30px;
-
+      @include flex-between;
+      padding: 20px;
 
       ul {
         font-weight: 700;
         @include flex-center;
+        gap: 25px;
 
         li {
           display: flex;
@@ -30,34 +29,34 @@
         }
       }
 
-      .search-input {
-        border-radius: 50px;
-        border-color: white;
-        font-weight: 500;
-        font-size: 14px;
-        gap: 12px;
-        text-align: center;
-        padding-top: 10px;
-        padding-right: 20px;
-        padding-bottom: 10px;
-        padding-left: 16px;
-        width: 250px;
-        height: 40px;
-        background-image: url(/SRC/Monito-icons/u_search.png);
-        background-repeat: no-repeat;
-        background-position: 4% 50%;
-      }
+      .search {
+        @include flex-between;
+        align-items: center;
+        gap: 20px;
 
-      .primary-btn {
-        text-decoration: none;
-        border-radius: 50px;
-        background-color: #003459;
-        color: #fff;
-        gap: 10px;
-        padding-top: 10px;
-        width: 200px;
-        height: 40px;
-        text-align: center;
+        .search-input {
+          border-radius: 50px;
+          border-color: white;
+          font-weight: 500;
+          font-size: 14px;
+          text-align: center;
+          width: 250px;
+          height: 40px;
+          background-image: url(/SRC/Monito-icons/u_search.png);
+          background-repeat: no-repeat;
+          background-position: 4% 50%;
+        }
+
+        .primary-btn {
+          text-decoration: none;
+          border-radius: 50px;
+          background-color: #003459;
+          color: #fff;
+          padding-top: 10px;
+          width: 200px;
+          height: 40px;
+          text-align: center;
+        }
       }
     }
   }
@@ -70,6 +69,10 @@
     display: flex;
     flex-direction: column;
     margin-top: 80px;
+
+    .show-main {
+      margin-left: 30px;
+    }
   }
   h1,
   h2 {
@@ -94,41 +97,35 @@
     @extend .body16-medium;
     width: 480px;
     margin: 24px 0 34px;
-   color: #002a48;
+    color: #002a48;
   }
 
   .main-img {
     position: absolute;
-    left: 700px;
-    top: 90px;
     width: 1100px;
     height: 700px;
+    z-index: 1;
+    left: 360px;
+    top: -60px;
   }
   .hero-btns {
-    position: absolute;
-    left: 370px;
     font-size: 16px;
     font-weight: 500;
+    margin-top: 30px;
     a {
       border-radius: 50px;
       border: 1px;
-      padding: 10px 30px;
-      margin-top: 35px;
+      padding: 12px 30px;
       border: 1.5px solid #003459;
     }
     .explore {
       color: white;
       background-color: #003459;
       margin-left: 25px;
-      margin-bottom: 235px;
     }
   }
 
   .frame {
-    z-index: 1;
-  }
-
-  .main-img {
     z-index: 1;
   }
 
@@ -139,8 +136,8 @@
       height: 635px;
       border-radius: 99px;
       background-color: #f7dba7;
-      top: -550px;
-      left: -15px;
+      top: -750px;
+      left: -400px;
       rotate: 20.23deg;
     }
 
@@ -148,8 +145,8 @@
       position: absolute;
       width: 70px;
       height: 70px;
-      top: 195px;
-      left: 362px;
+      top: 45px;
+      left: 20px;
       border-radius: 20px;
       rotate: 25.23deg;
       background-color: #f7dba7;
@@ -159,8 +156,8 @@
       position: absolute;
       width: 15px;
       height: 15px;
-      top: 148px;
-      left: 1055px;
+      top: 5px;
+      left: 700px;
       border-radius: 4px;
       rotate: 20deg;
       background-color: #f7dba7;
@@ -172,8 +169,8 @@
       border-radius: 9px;
       width: 28px;
       height: 28px;
-      top: 200px;
-      left: 1030px;
+      top: 70px;
+      left: 660px;
       rotate: -22deg;
     }
 
@@ -181,8 +178,8 @@
       position: absolute;
       width: 22px;
       height: 22px;
-      top: 210px;
-      left: 1030px;
+      top: 80px;
+      left: 660px;
       background-color: #003459;
       border-radius: 6px;
       rotate: -43deg;
@@ -192,8 +189,8 @@
       position: absolute;
       width: 635px;
       height: 635px;
-      top: 370px;
-      left: 900px;
+      top: 190px;
+      left: 600px;
       border-radius: 99px;
       rotate: 10deg;
       background-color: #003459;
@@ -203,8 +200,8 @@
       position: absolute;
       width: 635px;
       height: 635px;
-      top: 300px;
-      left: 960px;
+      top: 150px;
+      left: 650px;
       border-radius: 99px;
       rotate: 25deg;
       background-color: #f7dba7;
