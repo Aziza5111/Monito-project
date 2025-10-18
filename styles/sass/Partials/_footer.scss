@@ -1,11 +1,11 @@
 #footer {
+  background-color: #ffe7ba;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
   .footer {
     width: 1440px;
     height: 440px;
     margin-top: 60px;
-    background-color: #ffe7ba;
-    border-top-left-radius: 40px;
-    border-top-right-radius: 40px;
     position: relative;
   }
 
@@ -35,7 +35,7 @@
         width: 400px;
         height: 48px;
         border-radius: 50px;
-        border: 1px solid black;
+        border: 1px solid #99a2a5;
         border-radius: 8px;
         padding: 0 20px;
         margin: 12px;
@@ -55,6 +55,45 @@
         margin: 12px;
         padding: 15px 30px;
       }
+    }
+  }
+
+  .footer-nav {
+    @include flex-between;
+    align-items: center;
+    margin: 200px 10px 0;
+  }
+  .body16-medium {
+    color: #00171f;
+    @include flex-center;
+    gap: 50px;
+  }
+  .our-social-networks {
+    @include flex-center;
+    gap: 40px;
+  }
+  .horizontal {
+    border: 1px solid #a7abac;
+    border-radius: 1px;
+    width: 1040px;
+    height: 0.5px;
+    margin-top: 40px;
+  }
+  .footer-end {
+    @include flex-between;
+    align-items: center;
+    margin: 40px 130px;
+    
+    p {
+      margin-left: -120px;
+    }
+    .privacy {
+      @include flex-center;
+      gap: 20px;
+      margin-right: -120px;
+    }
+    .body14-medium {
+      color: #667479;
     }
   }
 }
