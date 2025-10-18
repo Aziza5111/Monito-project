@@ -581,19 +581,17 @@ body {
   color: #667479;
 }
 #our-products .site-our-products .our-products-cards .our-product-card .product-status .body14-bold {
-  margin-left: 8px;
+  margin: 0 0 8px 8px;
 }
 #our-products .site-our-products .our-products-cards .our-product-card .product-status .body16-bold {
-  padding-left: 8px;
-  padding-top: 8px;
+  padding: 8px 0 0 8px;
 }
 #our-products .site-our-products .our-products-cards .our-product-card .product-status .free-gift {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  width: 200px;
+  gap: 10px;
+  width: 240px;
   height: 34px;
-  margin: 18px 25px;
   padding: 7px;
   border: 1px solid #fceed5;
   border-radius: 8px;
@@ -602,6 +600,9 @@ body {
 #our-products .site-our-products .our-products-cards .our-product-card .product-status .free-gift .gift {
   width: 20px;
   height: 20px;
+}
+#our-products .site-our-products .our-products-cards .our-product-card .product-status .free-gift .body14-bold {
+  margin: 0;
 }
 #our-products .site-our-products .our-products-cards .our-product-card .product-status .dot {
   width: 4px;
@@ -737,4 +738,120 @@ body {
   height: 400px;
   z-index: 100;
   left: 590px;
+}
+
+#useful-knowledge .pets-knowledge {
+  margin-top: 60px;
+}
+#useful-knowledge .pets-knowledge .pets-knowledge__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#useful-knowledge .pets-knowledge .pets-knowledge__title .section-title {
+  font-weight: 700;
+  color: #003459;
+  font-size: 24px;
+  line-height: 36px;
+}
+#useful-knowledge .pets-knowledge .view-btn {
+  border-radius: 50px;
+  border: 1px;
+  padding: 10px 30px;
+  border: 1.5px solid #003459;
+}
+#useful-knowledge .pets-knowledge .knowledge-cards {
+  row-gap: 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#useful-knowledge .pets-knowledge .knowledge-cards .knowledge-card {
+  width: 380px;
+  height: 425px;
+  border: 1px solid #fff;
+  box-shadow: 0px 4px 28px -2px rgba(0, 0, 0, 0.08);
+  background-color: #fdfdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 8px;
+  border-radius: 12px;
+}
+#useful-knowledge .pets-knowledge .knowledge-cards .knowledge-card img {
+  border-radius: 10px;
+  top: 150px;
+}
+#useful-knowledge .pets-knowledge .knowledge-status {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 8px;
+}
+#useful-knowledge .pets-knowledge .knowledge-status .body10-bold {
+  margin-top: 16px;
+  background-color: #00a7e7;
+  border-radius: 28px;
+  color: #fff;
+  padding: 2px 10px;
+}
+#useful-knowledge .pets-knowledge .knowledge-status .body16-bold {
+  margin: 10px 0 6px 0;
+}
+
+#footer .footer {
+  width: 1440px;
+  height: 440px;
+  margin-top: 60px;
+  background-color: #ffe7ba;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  position: relative;
+}
+#footer .Our-programs {
+  position: absolute;
+  width: 1050px;
+  height: 136px;
+  background-color: #003459;
+  border-radius: 16px;
+  margin: 80px 70px;
+}
+#footer .Our-programs .section-title {
+  position: absolute;
+  color: #fdfdfd;
+  align-items: start;
+  margin: 32px;
+}
+#footer .Our-programs .subscribe {
+  position: absolute;
+  right: 32px;
+  top: 32px;
+  background-color: #fff;
+  border-radius: 14px;
+}
+#footer .Our-programs .subscribe .subscribe-input {
+  width: 400px;
+  height: 48px;
+  border-radius: 50px;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 0 20px;
+  margin: 12px;
+  left: 20px;
+}
+#footer .Our-programs .subscribe .subscribe-btn {
+  width: 400px;
+  height: 48px;
+  border-radius: 50px;
+  border: 1px;
+  border-radius: 8px;
+  background-color: #003459;
+  color: #fdfdfd;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 12px;
+  padding: 15px 30px;
 }/*# sourceMappingURL=main.css.map */

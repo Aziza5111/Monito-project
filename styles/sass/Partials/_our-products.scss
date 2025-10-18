@@ -58,20 +58,19 @@
           }
 
           .body14-bold {
-            margin-left: 8px;
+            margin: 0 0 8px 8px;
           }
 
           .body16-bold {
-            padding-left: 8px;
-            padding-top: 8px;
+            padding: 8px 0 0 8px;
           }
 
           .free-gift {
-            @include flex-between;
+            display: flex;
             align-items: center;
-            width: 200px;
+            gap: 10px;
+            width: 240px;
             height: 34px;
-            margin: 18px 25px;
             padding: 7px;
             border: 1px solid #fceed5;
             border-radius: 8px;
@@ -80,6 +79,10 @@
             .gift {
               width: 20px;
               height: 20px;
+            }
+
+            .body14-bold {
+              margin: 0;
             }
           }
 

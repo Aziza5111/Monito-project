@@ -1,0 +1,60 @@
+#footer {
+  .footer {
+    width: 1440px;
+    height: 440px;
+    margin-top: 60px;
+    background-color: #ffe7ba;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    position: relative;
+  }
+
+  .Our-programs {
+    position: absolute;
+    width: 1050px;
+    height: 136px;
+    background-color: #003459;
+    border-radius: 16px;
+    margin: 80px 70px;
+
+    .section-title {
+      position: absolute;
+      color: #fdfdfd;
+      align-items: start;
+      margin: 32px;
+    }
+
+    .subscribe {
+      position: absolute;
+      right: 32px;
+      top: 32px;
+      background-color: #fff;
+      border-radius: 14px;
+
+      .subscribe-input {
+        width: 400px;
+        height: 48px;
+        border-radius: 50px;
+        border: 1px solid black;
+        border-radius: 8px;
+        padding: 0 20px;
+        margin: 12px;
+        left: 20px;
+      }
+
+      .subscribe-btn {
+        width: 400px;
+        height: 48px;
+        border-radius: 50px;
+        border: 1px;
+        border-radius: 8px;
+        background-color: #003459;
+        color: #fdfdfd;
+        font-weight: 600;
+        cursor: pointer;
+        margin: 12px;
+        padding: 15px 30px;
+      }
+    }
+  }
+}
